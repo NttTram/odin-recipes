@@ -1,0 +1,32 @@
+body{
+   font-family: "Lucida Handwriting";
+   background-image: url('img/chalkboard-bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+}
+h1{
+    /* font-size: 14px; */
+    font-weight: bold;
+}
+.recipe-list {
+    display: inline-flexbox;
+    padding-right: 10px;
+    border: 1px solid red;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
