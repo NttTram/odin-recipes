@@ -28,5 +28,27 @@ a:hover{
 }
 
 ul li {
+   
     margin-bottom: 15px;
+    
+}
+
+.list-grid-container{
+    border: 1px solid yellow;
+    width: 800px;
+    height: auto;  
+    margin: auto;
+    padding: 50px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* align-self: center; */
+    gap: 10px;
+}
+
+.item-list{
+    height: 10em;
+    width: 10em;
+    border: 1px dashed green;
+    margin: auto;
 }
