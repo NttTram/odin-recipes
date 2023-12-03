@@ -1,8 +1,7 @@
 body{
    font-family: "Lucida Handwriting";
-   background-image: url('img/chalkboard-bg.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
+   
+   background-color: #555555;
    color: white;
    text-align: center;
    font-size: 20px;
@@ -11,12 +10,7 @@ h1{
     /* font-size: 14px; */
     font-weight: bold;
 }
-.recipe-list {
-    display: inline-flexbox;
-    padding-right: 10px;
-    border: 1px solid red;
-    
-}
+
 
 a {
     color: white;
@@ -24,21 +18,22 @@ a {
 }
 
 a:hover{
-    color: grey;
+    color: #D7BA89;
 }
 
-ul li {
-   
-    margin-bottom: 15px;
-    
-}
+
 
 .list-grid-container{
-    border: 1px solid yellow;
-    width: 800px;
+    background-image: url('img/chalkboard-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 20px solid #D7BA89;
+    border-radius: 5px;
+    width: 750px;
     height: auto;  
     margin: auto;
-    padding: 50px;
+    padding: 50px 10px;
 
     display: grid;
     grid-template-columns: auto auto auto;
@@ -47,8 +42,21 @@ ul li {
 }
 
 .item-list{
-    height: 10em;
+    height: 13.5em;
     width: 10em;
     border: 1px dashed green;
     margin: auto;
+}
+
+img{
+    height: 9.5em;
+    width: 9.5em;
+    border-radius: 5px;
+}
+
+img:hover{
+
+    height: 10em;
+    width: 10em;
+    box-shadow: 0 0 2px 4px whitesmoke;
 }
