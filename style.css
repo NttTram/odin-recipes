@@ -28,8 +28,10 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 
-    border: 20px solid #D7BA89;
+    border: 20px solid #d7ba89;
     border-radius: 5px;
+    box-shadow: 0 0 10px 5px grey;
+
     width: 750px;
     height: auto;  
     margin: auto;
@@ -44,19 +46,19 @@ a:hover{
 .item-list{
     height: 13.5em;
     width: 10em;
-    border: 1px dashed green;
+    /* border: 1px dashed green; */
     margin: auto;
 }
 
 img{
     height: 9.5em;
     width: 9.5em;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 img:hover{
 
     height: 10em;
     width: 10em;
-    box-shadow: 0 0 2px 4px whitesmoke;
+    box-shadow: 0 0 5px 4px grey;
 }
