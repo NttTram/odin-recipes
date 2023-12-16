@@ -1,0 +1,131 @@
+body{
+    font-family: "Chalkduster", fantasy;
+    /* font-variant: small-caps; */
+    font-stretch: extra-expanded;
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+ }
+
+ h1{
+    /* font-size: 14px; */
+    font-weight: bold;
+
+}
+
+h2{
+    font-size: 18px;
+
+}
+
+@keyframes smooth-appear {
+    from{
+        transform: scale(70%);
+        display: none;
+    }
+    to{
+        transform: scale(100%);
+        display: inline-block;
+    }
+  }
+
+.info-container {
+    background-image: url('../img/chalkboard-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 20px solid #d7ba89;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px 5px grey;
+    
+    width: 750px;
+    height: auto;  
+    margin: auto;
+    padding: 50px 10px;
+
+    display: block;
+    /* visibility: hidden; */
+  
+    
+    /* border-radius: 10px; */
+    animation: smooth-appear 1s linear forwards;
+   
+}
+
+
+
+.tape{
+    position: relative;
+
+    width: 30px;
+    height: 80px;
+    /* border: 1px solid white; */
+    background-color: #e6dea0;
+    box-shadow: 0 0 1px 1px grey;
+    transform: rotate(45deg);
+
+    
+}
+
+#tape-1{
+
+    top: -30px;
+    left: -10px;
+}
+
+#tape-2{
+    top: 170px;
+    left: 270px;
+}
+
+#recipe-img{
+    background-image: url("../img/scrambled-egg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+
+    /* border: 20px solid #d7ba89; */
+    border-radius: 5px;
+    
+
+    width: 300px;
+    height: 300px;
+    /* border: 1px dashed red; */
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    animation: smooth-appear 1.5s linear forwards;
+
+}
+
+#ingredient {
+    position: relative;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    animation: smooth-appear 3s ease forwards;
+}
+
+#instruct{
+    /* width: 400px; */
+    text-align: center;
+    display: inline-block;
+    padding:20px;
+    animation: smooth-appear 3s ease forwards;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+/* .info-container div {
+    border: 1px dashed red;
+} */
+
+a {
+    color: inherit;
+}
+a:hover{
+    color: #d7ba89;
+}

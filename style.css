@@ -1,6 +1,7 @@
 body{
-   font-family: "Lucida Handwriting";
-   
+    font-family: "Chalkduster", fantasy;
+    /* font-variant: small-caps; */
+    font-stretch: extra-expanded;
    background-color: white;
    color: white;
    text-align: center;
@@ -62,3 +63,4 @@ img:hover{
     width: 10em;
     box-shadow: 0 0 5px 4px grey;
 }
+
