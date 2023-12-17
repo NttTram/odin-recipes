@@ -2,21 +2,24 @@ body{
     font-family: "Chalkduster", fantasy;
     /* font-variant: small-caps; */
     font-stretch: extra-expanded;
+    font-variant: small-caps;
     background-color: white;
     color: white;
     text-align: center;
     font-size: 14px;
+    letter-spacing: 1.5px;
  }
 
  h1{
     /* font-size: 14px; */
     font-weight: bold;
+    
 
 }
 
 h2{
     font-size: 18px;
-
+    color:lightgreen;
 }
 
 @keyframes smooth-appear {
@@ -42,14 +45,14 @@ h2{
     width: 750px;
     height: auto;  
     margin: auto;
-    padding: 50px 10px;
+    padding: 10px;
 
     display: block;
     /* visibility: hidden; */
   
     
     /* border-radius: 10px; */
-    animation: smooth-appear 1s linear forwards;
+    animation: smooth-appear 1s ease forwards;
    
 }
 
@@ -80,7 +83,7 @@ h2{
 }
 
 #recipe-img{
-    background-image: url("../img/scrambled-egg-img.jpg");
+    
     background-repeat: no-repeat;
     background-size: 300px 300px;
 
@@ -93,6 +96,7 @@ h2{
     /* border: 1px dashed red; */
     display: inline-block;
     margin-right: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     animation: smooth-appear 1.5s linear forwards;
 
@@ -104,7 +108,7 @@ h2{
     height: auto;
     display: inline-block;
     vertical-align: top;
-    animation: smooth-appear 3s ease forwards;
+    animation: smooth-appear 1.5s ease forwards;
 }
 
 #instruct{
@@ -112,7 +116,7 @@ h2{
     text-align: center;
     display: inline-block;
     padding:20px;
-    animation: smooth-appear 3s ease forwards;
+    animation: smooth-appear 1.5s ease forwards;
 }
 
 ul{
@@ -124,8 +128,12 @@ ul{
 } */
 
 a {
-    color: inherit;
+    color: pink;
 }
 a:hover{
     color: #d7ba89;
+}
+
+ol li::marker{
+    color: pink;
 }

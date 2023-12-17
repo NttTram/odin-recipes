@@ -4,55 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type="text/stylesheet">
+    <link href="recipe-style.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+                
     <title>Cold Rolls</title>
 </head>
 <body>
-    <h1>Vietnamese Cold Rolls</h1>
+    <!--image-->
 
-    <img src="../img/cold-roll.jpeg" alt="cold roll img">
-    <!---https://www.taste.com.au/recipes/satay-chicken-rice-paper-rolls/2f0e333c-277c-46dc-b029-08cb599bdadd?r=recipes/ricepaperrollrecipes&c=6in2exmr/Rice%20paper%20roll%20recipes-->
-    
-    <h3>Desccription</h3>
-    <p>Vietnamese best traditional dish made with rice paper. It's also known by many names such as summer rolls, rice paper rolls or goi cuon in Vietnamese.</p>
+    <div class="info-container">
+        <h1>Cold Rolls</h1>
+        <p>Vietnamese best traditional dish made with rice paper. It's also known by many names such as summer rolls, rice paper rolls or goi cuon in Vietnamese.</p>
     <p>Today we will be making my favourite and simple Vietnamese food.</p>
-    <h3>Ingredients</h3> 
-    <ul>
-        <li>1 drinking coconut</li>
-        <li>700g chicken breasts</li>
-        <li>1 stalk lemongrass, chopped</li>
-        <li>20 x 22cm rice paper wrappers </li>
-        <li>1/2 small iceberg lettuce, thinly shredded</li>
-        <li>1 cup Thai basil leaves</li>
-        <li>1/2 cup coriander leaves</li>
-        <li>Lime wedges, to serve</li>
-    </ul>
-    <h4>Satay sauce</h4>
-    <ul>
-        <li>1 tbsp vegetable oil</li>
-        <li>1 eschalot, finely chopped</li>
-        <li>1 red bird's-eye chilli, seeded, finely chopped</li>
-        <li>1/2 tsp ground cumin</li>
-        <li>1 clove garlic, finely chopped</li>
-        <li>1/2 tsp coriander</li>
-        <li>1/2 tsp ground turmeric</li>
-        <li>250ml (1 cup) chicken stock</li>
-        <li>80ml (1/3 cup) coconut milk</li>
-        <li>2 tbsp hoisin sauce</li>
-        <li>1 1/2 tbsp fish sauce</li>
-        <li>140g (1 cup) roasted unsalted peanuts</li>
-        <li>1 tbsp grated palm sugar</li>
-        <li>1 lime, juiced</li>
-    </ul>
-    <h3>Instructions</h3> 
-    <ol>
-        <li>To cook chicken, place coconut on a work surface. Using the heel of a cleaver, make a 5cm hole in top. Pour coconut water into a small frying pan. Crack coconut open. Scoop out flesh, finely chop, then reserve. Add chicken and lemongrass to pan with enough tap water to just cover. Bring to a simmer over high heat, reduce heat to low, then cook for 10 minutes. Remove from heat. Set aside for 10 minutes (the residual heat of the water will finish cooking chicken).</li>
-        <li>Meanwhile, to make sauce, heat oil in a small saucepan over medium heat. Add eschalot, garlic and chilli, and cook, stirring, for 3 minutes or until soft. Add spices and stir for 1 minute or until fragrant. Stir in stock, coconut milk and hoisin and fish sauces, then bring to a simmer. Reduce heat to low and cook for 10 minutes or until slightly reduced.</li>
-        <li>Process peanuts and palm sugar in a food processor until finely ground. Add to coconut milk mixture. Simmer, stirring occasionally, for a further 5 minutes or until sauce is thick. Stir in lime juice. Cool. Makes 1 1/4 cups.</li>
-        <li>Remove chicken from cooking liquid and cool. Finely shred chicken into a bowl. Add reserved coconut flesh.</li>
-        <li>Fill a large bowl with warm water. Dip a rice paper wrapper in water for 20 seconds or until just softened, then place on a sheet of baking paper. Fold left side in by 5cm, then place some lettuce lengthwise on wrapper, 3cm up from the bottom. Top with a little chicken mixture and sauce, then a basil and coriander leaf. Fold bottom of wrapper up over filling, then roll up tightly, folding in right side as you go, to form a roll with one open end. Repeat with remaining wrappers and filling ingredients. Tuck a few extra herbs into the top of each roll.</li>
-        <li>Serve rolls with lime wedges and remaining satay sauce.</li>
-    </ol>
-    <a href="../index.html">More Recipes</a>
+        <div id="recipe-img" style="background-image: url('../img/cold-roll.jpeg');">
+            <div class="tape" id="tape-1"></div>
+            <div class="tape" id="tape-2"></div>
+        </div>
+        <div id="ingredient">
+            <!--banner-->
+            <h2>Ingredients</h2>
+            <ul>
+                <li><input type="checkbox">1 drinking coconut</li>
+                <li><input type="checkbox">700g chicken breasts</li>
+                <li><input type="checkbox">1 stalk lemongrass, chopped</li>
+                <li><input type="checkbox">20 x 22cm rice paper wrappers</li>
+                <li><input type="checkbox">1/2 small iceberg lettuce, thinly shredded</li>
+                <li><input type="checkbox">1 cup Thai basil leaves</li>
+                <li><input type="checkbox">1/2 cup coriander leaves</li>
+                <li><input type="checkbox">Lime wedges, to serve</li>
+            </ul>
+
+            <h2>Satay sauce</h2>
+            <ul>
+                <li><input type="checkbox">1 tbsp vegetable oil</li>
+                <li><input type="checkbox">1 eschalot, finely chopped</li>
+                <li><input type="checkbox">1 red bird's-eye chilli, seeded, finely chopped</li>
+                <li><input type="checkbox">1/2 tsp ground cumin</li>
+                <li><input type="checkbox">1 clove garlic, finely chopped</li>
+                <li><input type="checkbox">1/2 tsp coriander</li>
+                <li><input type="checkbox">1/2 tsp ground turmeric</li>
+                <li><input type="checkbox">250ml (1 cup) chicken stock</li>
+                <li><input type="checkbox">80ml (1/3 cup) coconut milk</li>
+                <li><input type="checkbox">2 tbsp hoisin sauce</li>
+                <li><input type="checkbox">1 1/2 tbsp fish sauce</li>
+                <li><input type="checkbox">140g (1 cup) roasted unsalted peanuts</li>
+                <li><input type="checkbox">1 tbsp grated palm sugar</li>
+                <li><input type="checkbox">1 lime, juiced</li>
+            </ul>
+        </div>
+        <div id="instruct">
+            <!--banner-->
+            <h2>Instructions</h2>
+            <ol>
+                <li>To cook chicken, place coconut on a work surface. Using the heel of a cleaver, make a 5cm hole in top. Pour coconut water into a small frying pan. Crack coconut open. Scoop out flesh, finely chop, then reserve. Add chicken and lemongrass to pan with enough tap water to just cover. Bring to a simmer over high heat, reduce heat to low, then cook for 10 minutes. Remove from heat. Set aside for 10 minutes (the residual heat of the water will finish cooking chicken).</li>
+                <li>Meanwhile, to make sauce, heat oil in a small saucepan over medium heat. Add eschalot, garlic and chilli, and cook, stirring, for 3 minutes or until soft. Add spices and stir for 1 minute or until fragrant. Stir in stock, coconut milk and hoisin and fish sauces, then bring to a simmer. Reduce heat to low and cook for 10 minutes or until slightly reduced.</li>
+                <li>Process peanuts and palm sugar in a food processor until finely ground. Add to coconut milk mixture. Simmer, stirring occasionally, for a further 5 minutes or until sauce is thick. Stir in lime juice. Cool. Makes 1 1/4 cups.</li>
+                <li>Remove chicken from cooking liquid and cool. Finely shred chicken into a bowl. Add reserved coconut flesh.</li>
+                <li>Fill a large bowl with warm water. Dip a rice paper wrapper in water for 20 seconds or until just softened, then place on a sheet of baking paper. Fold left side in by 5cm, then place some lettuce lengthwise on wrapper, 3cm up from the bottom. Top with a little chicken mixture and sauce, then a basil and coriander leaf. Fold bottom of wrapper up over filling, then roll up tightly, folding in right side as you go, to form a roll with one open end. Repeat with remaining wrappers and filling ingredients. Tuck a few extra herbs into the top of each roll.</li>
+                <li>Serve rolls with lime wedges and remaining satay sauce.</li>
+            </ol>
+        </div>
+
+        <p><a href="../index.html">More Recipes</a></p>
+    </div>  
+    
 </body>
 </html>

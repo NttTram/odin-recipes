@@ -22,7 +22,16 @@ a:hover{
     color: #D7BA89;
 }
 
-
+@keyframes smooth-appear {
+    from{
+        transform: scale(70%);
+       
+    }
+    to{
+        transform: scale(100%);
+        
+    }
+}
 
 .list-grid-container{
     background-image: url('img/chalkboard-bg.jpg');
@@ -40,15 +49,18 @@ a:hover{
 
     display: grid;
     grid-template-columns: auto auto auto;
-    /* align-self: center; */
-    gap: 10px;
-}
+    align-self: center;
+    gap: 10px; 
+   
+    
+} 
 
 .item-list{
     height: 13.5em;
     width: 10em;
     /* border: 1px dashed green; */
-    margin: auto;
+    /* margin: auto; */
+    animation: smooth-appear 2s ease forwards;
 }
 
 img{
